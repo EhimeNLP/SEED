@@ -1,6 +1,6 @@
 import torch.nn as nn
 
-class MLP(nn.Module):
+class MLP_large(nn.Module):
     def __init__(self, emb_size=1024):
         super().__init__()
         self.meaning_emb_layer = nn.Linear(emb_size, emb_size)
